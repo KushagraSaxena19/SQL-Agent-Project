@@ -7,8 +7,6 @@
   &nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" /> 
   &nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" /> 
-  &nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
