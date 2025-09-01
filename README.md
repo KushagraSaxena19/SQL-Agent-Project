@@ -12,47 +12,19 @@
 
 ---
 
-## 📖 Project Overview  
+## 🎥 Demo Workflow  
 
-This project is an **AI-powered SQL Agent** built to make querying databases as simple as asking a question in English.  
-It uses **Large Language Models (Google Gemini / OpenAI)** to understand natural language, generate **PostgreSQL queries**,  
-and execute them on a **Supabase-hosted database**, all orchestrated with **n8n workflow automation**.  
+Here’s how the **AI-powered SQL Agent** works in action:  
 
-✨ With this, even non-technical users can query a database in plain English without writing SQL.  
+1. User asks in plain English → *“Show me total sales by region in July”*  
+2. Gemini LLM converts it → SQL query  
+3. Query runs on **Supabase (Postgres DB)**  
+4. Results returned back in **n8n workflow**  
 
----
-
-## 🛠️ Tech Stack  
-
-- **n8n** → Workflow automation engine  
-- **PostgreSQL (Supabase)** → Database  
-- **Google Gemini** → LLM for query generation  
-
----
-
-## 💡 Why is this Important for Businesses?  
-
-- ⏱️ **Saves Time** → No more waiting for data teams. Anyone can ask questions in plain English.  
-- 📊 **Better Decisions** → Business teams can access data instantly to make real-time decisions.  
-- 👨‍💻 **Bridges Gap** → Removes the barrier between technical & non-technical teams.  
-- 🛠️ **Automation Ready** → Integrates with n8n workflows to push insights directly to Slack, Gmail, or dashboards.  
-
-👉 In short, it makes **data-driven decision making faster, easier, and accessible to everyone**.  
-
----
-
-## 🛡️ Error Validation  
-
-To ensure reliable query execution, the system includes **validation checks**:  
-- ✅ **Schema Awareness** → If user asks for unavailable columns/tables, it responds with:  
-  `"There is no available data to answer this query."`  
-- ✅ **Clarification Questions** → If the query is ambiguous, the agent asks follow-ups before running SQL.  
-- ✅ **Query Testing** → Every SQL is validated in a sandbox before execution.  
-
----
-
-## 🎬 Demo  
-
-### ✅ Example Query  
-
-**User asks in plain English:**  
+```mermaid
+flowchart TD
+    A[User Query in English] --> B[Gemini LLM]
+    B --> C[Generated SQL]
+    C --> D[Supabase PostgreSQL DB]
+    D --> E[n8n Workflow]
+    E --> F[Results Returned to User]
