@@ -27,8 +27,32 @@ and execute them on a **Supabase-hosted database**, all orchestrated with **n8n 
 - **n8n** → Workflow automation engine  
 - **PostgreSQL (Supabase)** → Database  
 - **Google Gemini** → LLM for query generation  
+
 ---
 
-## 🎥 Demo  
+## 💡 Why is this Important for Businesses?  
 
-https://github.com/your-username/your-repo-name/assets/your-video-id/video.mp4  
+- ⏱️ **Saves Time** → No more waiting for data teams. Anyone can ask questions in plain English.  
+- 📊 **Better Decisions** → Business teams can access data instantly to make real-time decisions.  
+- 👨‍💻 **Bridges Gap** → Removes the barrier between technical & non-technical teams.  
+- 🛠️ **Automation Ready** → Integrates with n8n workflows to push insights directly to Slack, Gmail, or dashboards.  
+
+👉 In short, it makes **data-driven decision making faster, easier, and accessible to everyone**.  
+
+---
+
+## 🛡️ Error Validation  
+
+To ensure reliable query execution, the system includes **validation checks**:  
+- ✅ **Schema Awareness** → If user asks for unavailable columns/tables, it responds with:  
+  `"There is no available data to answer this query."`  
+- ✅ **Clarification Questions** → If the query is ambiguous, the agent asks follow-ups before running SQL.  
+- ✅ **Query Testing** → Every SQL is validated in a sandbox before execution.  
+
+---
+
+## 🎬 Demo  
+
+### ✅ Example Query  
+
+**User asks in plain English:**  
