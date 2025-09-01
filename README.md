@@ -30,7 +30,7 @@ flowchart TD
     C --> D[Supabase PostgreSQL DB]
     D --> E[n8n Workflow]
     E --> F[Results Returned to User]
-
+```
 👉 [Watch Demo Video](./demo/demo_workflow.mp4)
 
 ---
