@@ -27,7 +27,8 @@ The AI (Google Gemini / OpenAI) interprets user questions, converts them into SQ
 ## 📐 Architecture  
 <p align="center">
   
- <img width="1274" height="448" alt="image" src="https://github.com/user-attachments/assets/3de5aa5e-30ce-4cea-9f9a-b26ea23fa956" />
+<img width="859" height="414" alt="image" src="https://github.com/user-attachments/assets/42ae9173-17ce-4a9d-9ac3-7c210fa49bd3" />
+
 
 </p>  
 
