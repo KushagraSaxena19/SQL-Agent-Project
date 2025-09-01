@@ -26,14 +26,9 @@ and execute them on a **Supabase-hosted database**, all orchestrated with **n8n 
 
 - **n8n** → Workflow automation engine  
 - **PostgreSQL (Supabase)** → Database  
-- **Google Gemini / OpenAI** → LLM for query generation  
-- **Node.js / API Integration** → Connectors  
-- **GitHub Actions (optional)** → CI/CD  
-
+- **Google Gemini** → LLM for query generation  
 ---
 
 ## 🎥 Demo  
 
 https://github.com/your-username/your-repo-name/assets/your-video-id/video.mp4  
-
-*(You can upload your demo video in GitHub repo under `Issues → New Issue → Drag & Drop video`, copy the link and paste it here*
