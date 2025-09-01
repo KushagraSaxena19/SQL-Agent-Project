@@ -56,7 +56,7 @@ graph TD
 | **Workflow** | n8n | Automation and result processing |
 | **Validation** | Custom Logic | Query safety and schema validation |
 
-```
+
 ## 🎥 Demo Videos
 
 | Feature | Demo Link | Description |
