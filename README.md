@@ -66,12 +66,6 @@ graph TD
 | **Complex Queries** | [📺 Watch Demo](./demo/complex_queries.mp4) | Advanced SQL generation |
 
 ---
-## 🛡️ Security & Validation
-
-- **Schema Validation**: Queries are checked against available tables and columns
-- **SQL Injection Prevention**: Parameterized queries and input sanitization
-- **Access Control**: Role-based permissions for different user types
-- **Query Limits**: Automatic timeout and result size restrictions
 
 ## 📊 Performance Metrics
 
@@ -79,6 +73,12 @@ graph TD
 - **Accuracy Rate**: 95%+ for common business queries
 - **Error Prevention**: 100% SQL injection protection
 - **Uptime**: 99.9% availability target
-  
+
+## 🔮 What I Added:
+
+ - **Integration Opportunities** - BI tools, chatbots, APIs, mobile apps
+ - **Enterprise Features** - RBAC, audit logs, data governance, SSO
+ - **Performance & Scale** - Query optimization, caching, load balancing
+ - **Database Expansion** - Multi-DB support, data warehouses, real-time analytics  
 ---
 <p align="center">
