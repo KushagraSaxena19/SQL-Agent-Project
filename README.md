@@ -61,3 +61,7 @@ The SQL Agent **never generates random results**. It strictly validates queries:
 - ✅ Deploy as a **Slack/Teams chatbot** for non-technical users.  
 
 ---
+
+🚀 This project demonstrates how AI can simplify SQL workflows and empower businesses.  
+📩 For collaboration or inquiries, reach out anytime!
+
