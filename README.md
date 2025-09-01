@@ -1,7 +1,7 @@
 # 🚀 AI-Powered SQL Agent with Workflow Automation  
 
 <p align="center"> 
-  <img src="https://img.shields.io/badge/-SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> 
   &nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> 
   &nbsp;&nbsp;&nbsp;
