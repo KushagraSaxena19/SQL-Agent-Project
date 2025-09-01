@@ -56,27 +56,6 @@ graph TD
 | **Workflow** | n8n | Automation and result processing |
 | **Validation** | Custom Logic | Query safety and schema validation |
 
-## 📱 Usage Examples
-
-### Basic Query
-```
-Input: "Show me all customers from California"
-Generated SQL: SELECT * FROM customers WHERE state = 'California';
-```
-
-### Complex Aggregation
-```
-Input: "What's the average order value by region last quarter?"
-Generated SQL: SELECT region, AVG(order_total) 
-               FROM orders 
-               WHERE date >= '2024-01-01' AND date <= '2024-03-31' 
-               GROUP BY region;
-```
-
-### Error Handling
-```
-Input: "Show me data from non_existent_table"
-Response: ❌ Error: Table 'non_existent_table' not found in schema
 ```
 ## 🎥 Demo Videos
 
@@ -103,5 +82,3 @@ Response: ❌ Error: Table 'non_existent_table' not found in schema
   
 ---
 <p align="center">
-  <a href="#top">⬆️ Back to Top</a>
-</p>
