@@ -9,31 +9,6 @@
   <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/yourusername/sql-agent?style=flat-square" />
-  <img src="https://img.shields.io/github/stars/yourusername/sql-agent?style=flat-square" />
-  <img src="https://img.shields.io/github/forks/yourusername/sql-agent?style=flat-square" />
-  <img src="https://img.shields.io/github/issues/yourusername/sql-agent?style=flat-square" />
-</p>
-
-## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/sql-agent.git
-cd sql-agent
-
-# Install dependencies
-npm install
-
-# Configure environment variables
-cp .env.example .env
-# Edit .env with your API keys and database credentials
-
-# Start the application
-npm start
-```
-
 ## 🎯 What This Solves
 
 **Before:** Business users wait hours or days for simple data requests
@@ -103,7 +78,15 @@ Generated SQL: SELECT region, AVG(order_total)
 Input: "Show me data from non_existent_table"
 Response: ❌ Error: Table 'non_existent_table' not found in schema
 ```
+## 🎥 Demo Videos
 
+| Feature | Demo Link | Description |
+|---------|-----------|-------------|
+| **Basic Workflow** | [📺 Watch Demo](./demo/basic_workflow.mp4) | End-to-end query processing |
+| **Error Handling** | [📺 Watch Demo](./demo/error_handling.mp4) | Validation and error responses |
+| **Complex Queries** | [📺 Watch Demo](./demo/complex_queries.mp4) | Advanced SQL generation |
+
+---
 ## 🛡️ Security & Validation
 
 - **Schema Validation**: Queries are checked against available tables and columns
@@ -117,106 +100,8 @@ Response: ❌ Error: Table 'non_existent_table' not found in schema
 - **Accuracy Rate**: 95%+ for common business queries
 - **Error Prevention**: 100% SQL injection protection
 - **Uptime**: 99.9% availability target
-
-## 🚦 Getting Started
-
-### Prerequisites
-- Node.js 16+ 
-- PostgreSQL database
-- n8n instance (cloud or self-hosted)
-- Google Gemini API key
-
-### Environment Setup
-```env
-GEMINI_API_KEY=your_gemini_api_key
-SUPABASE_URL=your_supabase_url
-SUPABASE_ANON_KEY=your_supabase_key
-N8N_WEBHOOK_URL=your_n8n_webhook_url
-DATABASE_URL=your_postgres_connection_string
-```
-
-## 🎥 Demo Videos
-
-| Feature | Demo Link | Description |
-|---------|-----------|-------------|
-| **Basic Workflow** | [📺 Watch Demo](./demo/basic_workflow.mp4) | End-to-end query processing |
-| **Error Handling** | [📺 Watch Demo](./demo/error_handling.mp4) | Validation and error responses |
-| **Complex Queries** | [📺 Watch Demo](./demo/complex_queries.mp4) | Advanced SQL generation |
-
-## 🧪 Testing
-
-```bash
-# Run unit tests
-npm test
-
-# Run integration tests
-npm run test:integration
-
-# Test query generation
-npm run test:queries
-```
-
-## 📈 Roadmap
-
-### Phase 1 (Current) ✅
-- [x] Basic natural language to SQL conversion
-- [x] PostgreSQL integration
-- [x] Error handling and validation
-- [x] n8n workflow automation
-
-### Phase 2 (Q2 2024) 🔄
-- [ ] Multi-database support (MySQL, SQL Server)
-- [ ] Advanced analytics queries
-- [ ] Query optimization suggestions
-- [ ] API rate limiting
-
-### Phase 3 (Q3 2024) 📋
-- [ ] Slack/Teams integration
-- [ ] BI dashboard connectors
-- [ ] Role-based access control
-- [ ] Query performance analytics
-
-### Phase 4 (Q4 2024) 🎯
-- [ ] Custom AI model training
-- [ ] Advanced visualization
-- [ ] Multi-tenant support
-- [ ] Enterprise security features
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙋‍♂️ Support
-
-- 📧 **Email**: your.email@domain.com
-- 💬 **Discord**: [Join our community](https://discord.gg/your-server)
-- 🐛 **Issues**: [Report bugs](https://github.com/yourusername/sql-agent/issues)
-- 📖 **Documentation**: [Read the docs](https://docs.yourdomain.com)
-
-## ⭐ Show Your Support
-
-If this project helped you, please consider:
-- Giving it a ⭐ on GitHub
-- Sharing it with your network
-- Contributing to the codebase
-- Reporting bugs or suggesting features
-
+  
 ---
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
-</p>
-
 <p align="center">
   <a href="#top">⬆️ Back to Top</a>
 </p>
