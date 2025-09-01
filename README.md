@@ -1,9 +1,5 @@
 # 🤖 SQL Agent Project – Natural Language to SQL 🚀  
 
-<p align="center">
-  <img src="architecture.png" alt="Architecture" width="600"/>
-</p>
-
 ## 📌 Overview  
 This project is an **AI-powered SQL Agent** that allows anyone to query a **PostgreSQL database in Supabase** using **plain English**.  
 The AI (Google Gemini / OpenAI) interprets user questions, converts them into SQL queries, executes them, and returns results in a clean, human-readable format.  
@@ -15,9 +11,8 @@ The AI (Google Gemini / OpenAI) interprets user questions, converts them into SQ
 ## ⚙️ Tech Stack  
 - 🌀 **n8n** – Workflow Automation  
 - 🗄️ **PostgreSQL (Supabase)** – Database  
-- 🧠 **Google Gemini / OpenAI** – LLM for SQL generation  
-- 🐍 **Python (Optional)** – Helper scripts for query execution  
-
+- 🧠 **Google Gemini / OpenAI** – LLM for SQL generation
+- 
 ---
 
 ## ✨ Features  
@@ -31,7 +26,9 @@ The AI (Google Gemini / OpenAI) interprets user questions, converts them into SQ
 
 ## 📐 Architecture  
 <p align="center">
-  <img src="architecture.png" alt="Workflow Architecture" width="650"/>
+  
+ <img width="1274" height="448" alt="image" src="https://github.com/user-attachments/assets/3de5aa5e-30ce-4cea-9f9a-b26ea23fa956" />
+
 </p>  
 
 1. User enters a question in plain English.  
