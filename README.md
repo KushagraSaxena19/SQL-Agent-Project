@@ -1,47 +1,36 @@
-# 🤖 SQL Agent Project – Natural Language to SQL 🚀  
+# 🚀 AI-Powered SQL Agent with Workflow Automation  
 
-## 📌 Overview  
-This project is an **AI-powered SQL Agent** that allows anyone to query a **PostgreSQL database in Supabase** using **plain English**.  
-The AI (Google Gemini / OpenAI) interprets user questions, converts them into SQL queries, executes them, and returns results in a clean, human-readable format.  
-
-💡 In short: *Ask in English → Get instant SQL insights.*  
-
----
-
-## ⚙️ Tech Stack  
-- 🌀 **n8n** – Workflow Automation  
-- 🗄️ **PostgreSQL (Supabase)** – Database  
-- 🧠 **Google Gemini / OpenAI** – LLM for SQL generation
-- 
----
-
-## ✨ Features  
-- 🔍 **Natural Language → SQL** conversion  
-- 📊 Query live **Postgres (Supabase)** database  
-- 🤝 **Context-aware memory** (follow-up questions supported)  
-- 🎨 **Formatted results** (easy to read for business users)  
-- 🔒 **Environment variables** for secure API keys  
-
----
-
-## 📐 Architecture  
 <p align="center">
-  
-<img width="859" height="414" alt="image" src="https://github.com/user-attachments/assets/42ae9173-17ce-4a9d-9ac3-7c210fa49bd3" />
-
-
-</p>  
-
-1. User enters a question in plain English.  
-2. AI Agent (Gemini/OpenAI) converts it into SQL.  
-3. SQL runs on **Supabase (Postgres)**.  
-4. Results are returned back to the user.  
+  <img src="https://img.shields.io/badge/AI-SQL-blue?style=for-the-badge&logo=postgresql" />
+  <img src="https://img.shields.io/badge/n8n-Automation-green?style=for-the-badge&logo=n8n" />
+  <img src="https://img.shields.io/badge/Supabase-Postgres-brightgreen?style=for-the-badge&logo=supabase" />
+  <img src="https://img.shields.io/badge/LLM-Gemini%2FOpenAI-orange?style=for-the-badge&logo=openai" />
+</p>
 
 ---
 
-## 📊 Example  
+## 📖 Project Overview  
 
-**Query:**  
-> "Show me the top 5 customers by revenue"  
+This project is an **AI-powered SQL Agent** built to make querying databases as simple as asking a question in English.  
+It uses **Large Language Models (Google Gemini / OpenAI)** to understand natural language, generate **PostgreSQL queries**,  
+and execute them on a **Supabase-hosted database**, all orchestrated with **n8n workflow automation**.  
 
-**Output:**  
+✨ With this, even non-technical users can query a database in plain English without writing SQL.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **n8n** → Workflow automation engine  
+- **PostgreSQL (Supabase)** → Database  
+- **Google Gemini / OpenAI** → LLM for query generation  
+- **Node.js / API Integration** → Connectors  
+- **GitHub Actions (optional)** → CI/CD  
+
+---
+
+## 🎥 Demo  
+
+https://github.com/your-username/your-repo-name/assets/your-video-id/video.mp4  
+
+*(You can upload your demo video in GitHub repo under `Issues → New Issue → Drag & Drop video`, copy the link and paste it here*
