@@ -1,17 +1,15 @@
 # 🚀 AI-Powered SQL Agent with Workflow Automation  
 
 <p align="center"> 
-  <img src="https://img.shields.io/badge/SQL-Database-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> 
-  <br/>
-  <img src="https://img.shields.io/badge/n8n-Workflow%20Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> 
-  <br/>
-  <img src="https://img.shields.io/badge/Supabase-Backend%20as%20a%20Service-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" /> 
-  <br/>
-  <img src="https://img.shields.io/badge/OpenAI-Large%20Language%20Models-412991?style=for-the-badge&logo=openai&logoColor=white" /> 
-  <br/>
-  <img src="https://img.shields.io/badge/Google%20Gemini-AI%20Assistant-4285F4?style=for-the-badge&logo=google&logoColor=white" /> 
-  <br/>
-  <img src="https://img.shields.io/badge/Artificial%20Intelligence-Machine%20Learning-FF6B35?style=for-the-badge&logo=tensorflow&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/-SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> 
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> 
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" /> 
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" /> 
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
 ---
