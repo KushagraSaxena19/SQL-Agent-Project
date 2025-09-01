@@ -12,14 +12,16 @@
 
 ---
 
+## 📌 Project Overview
+This project allows business users and analysts to ask **plain English questions** such as:  
+> “Show me total sales by region for the last 3 months.”  
+
+The SQL Agent will automatically translate this into a **valid SQL query**, execute it on the database, and return the results.  
+It ensures that queries are validated before execution, avoiding random or misleading data.
+
+---
+
 ## 🎥 Demo Workflow  
-
-Here’s how the **AI-powered SQL Agent** works in action:  
-
-1. User asks in plain English → *“Show me total sales by region in July”*  
-2. Gemini LLM converts it → SQL query  
-3. Query runs on **Supabase (Postgres DB)**  
-4. Results returned back in **n8n workflow**  
 
 ```mermaid
 flowchart TD
@@ -28,3 +30,34 @@ flowchart TD
     C --> D[Supabase PostgreSQL DB]
     D --> E[n8n Workflow]
     E --> F[Results Returned to User]
+
+👉 [Watch Demo Video](./demo/demo_workflow.mp4)
+
+---
+
+## ⚠️ Error & Validation Handling
+The SQL Agent **never generates random results**. It strictly validates queries:  
+
+- ❌ **Wrong data** → Returns a clear error message.  
+- ✅ **Correct data** → Executes safely and shows results.  
+
+👉 [Watch Error Handling Demo](./demo/error_validation.mp4)
+
+---
+
+## 💼 Why It’s Important for Business
+- ⏳ **Saves analyst time** by automating repetitive SQL queries.  
+- 👩‍💻 **Reduces dependency** on technical staff for simple reports.  
+- ⚡ **Improves decision-making speed** with instant query results.  
+- 🛡️ **Prevents human errors** in manual SQL writing.  
+
+---
+
+## 🔮 Extended Ways / Future Scope
+- ✅ Integrate with **BI dashboards** (Power BI / Tableau).  
+- ✅ Add **role-based access control** for query execution.  
+- ✅ Implement **query optimization checks** for efficiency.  
+- ✅ Support **multiple databases** beyond PostgreSQL.  
+- ✅ Deploy as a **Slack/Teams chatbot** for non-technical users.  
+
+---
