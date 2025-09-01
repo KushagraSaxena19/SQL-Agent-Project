@@ -39,12 +39,12 @@ graph TD
     D --> E[⚙️ n8n Workflow<br/>Result Processing]
     E --> F[📋 Formatted Response<br/>Back to User]
     
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style D fill:#e8f5e8
-    style E fill:#fce4ec
-    style F fill:#e1f5fe
+    style A fill:#4fc3f7,stroke:#01579b,stroke-width:2px,color:#000
+    style B fill:#ba68c8,stroke:#4a148c,stroke-width:2px,color:#000
+    style C fill:#ffb74d,stroke:#e65100,stroke-width:2px,color:#000
+    style D fill:#81c784,stroke:#1b5e20,stroke-width:2px,color:#000
+    style E fill:#f06292,stroke:#880e4f,stroke-width:2px,color:#000
+    style F fill:#4fc3f7,stroke:#01579b,stroke-width:2px,color:#000
 ```
 
 ## 🔧 Technology Stack
