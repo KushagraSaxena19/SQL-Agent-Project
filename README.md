@@ -12,12 +12,26 @@
 
 ---
 
-## 📌 Project Overview
-This project allows business users and analysts to ask **plain English questions** such as:  
-> “Show me total sales by region for the last 3 months.”  
+## ❌ The Problem
+In most companies, business users need analysts or developers to fetch even the simplest data.  
+This creates a bottleneck:
+- Managers waste time waiting for routine reports  
+- Analysts spend hours writing repetitive SQL queries  
+- Non-technical users feel blocked by technical barriers  
 
-The SQL Agent will automatically translate this into a **valid SQL query**, execute it on the database, and return the results.  
-It ensures that queries are validated before execution, avoiding random or misleading data.
+---
+
+## ✅ The Solution
+This project removes that bottleneck.  
+An **AI-powered SQL Agent** allows users to ask questions in **plain English**.  
+The agent automatically:
+1. Translates the question into a SQL query  
+2. Validates the query against available tables  
+3. Executes safely  
+4. Returns accurate results instantly  
+
+⚡ Result → Business users get answers faster, analysts focus on real insights, and teams move quicker.  
+
 
 ---
 
