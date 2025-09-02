@@ -87,9 +87,9 @@ graph TD
 
 | 🎬 Demo | 📝 Description | ⏱️ Duration |
 |:-------:|:--------------:|:-----------:|
-| [📺 **Basic Workflow**](https://github.com/user-attachments/assets/d61b4068-5f1b-426b-84c2-c056f980ddb7) | End-to-end query processing | *2 min* |
-| [📺 **Error Handling**](https://github.com/user-attachments/assets/a6c50ae6-3920-4387-af50-9796135c900a) | Validation and error responses | *1.5 min* |
-| [📺 **Complex Queries**](https://github.com/user-attachments/assets/59ac2379-ebee-40a4-8227-ede21f0ce541) | Advanced SQL generation | *3 min* |
+| [📺 **Basic Workflow**](https://github.com/user-attachments/assets/d61b4068-5f1b-426b-84c2-c056f980ddb7) | End-to-end query processing | *~10 sec* |
+| [📺 **Error Handling**](https://github.com/user-attachments/assets/a6c50ae6-3920-4387-af50-9796135c900a) | Validation and error responses | *~5 sec* |
+| [📺 **Complex Queries**](https://github.com/user-attachments/assets/59ac2379-ebee-40a4-8227-ede21f0ce541) | Advanced SQL generation | *~25 sec* |
 
 </div>
 
