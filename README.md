@@ -60,20 +60,20 @@ graph TD
 
 | Feature | Demo Link | Description |
 |---------|-----------|-------------|
-| **Basic Workflow** | [📺 Watch Demo](./demo/basic_workflow.mp4) | End-to-end query processing |
-| **Error Handling** | [📺 Watch Demo](./demo/error_handling.mp4) | Validation and error responses |
-| **Complex Queries** | [📺 Watch Demo](./demo/complex_queries.mp4) | Advanced SQL generation |
+| **Basic Workflow** | [📺 Watch Demo](https://github.com/user-attachments/assets/d61b4068-5f1b-426b-84c2-c056f980ddb7) | End-to-end query processing |
+| **Error Handling** | [📺 Watch Demo](https://github.com/user-attachments/assets/a6c50ae6-3920-4387-af50-9796135c900a) | Validation and error responses |
+| **Complex Queries** | [📺 Watch Demo](https://github.com/user-attachments/assets/59ac2379-ebee-40a4-8227-ede21f0ce541) | Advanced SQL generation |
 
 ---
 
 ## 📊 Performance Metrics
 
-- **Query Generation**: < 2 seconds average response time
+- **Query Generation**: < 15 seconds average response time
 - **Accuracy Rate**: 95%+ for common business queries
 - **Error Prevention**: 100% SQL injection protection
 - **Uptime**: 99.9% availability target
 
-## 🔮 What I Added:
+## 🔮 Future Scope:
 
  - **Integration Opportunities** - BI tools, chatbots, APIs, mobile apps
  - **Enterprise Features** - RBAC, audit logs, data governance, SSO
