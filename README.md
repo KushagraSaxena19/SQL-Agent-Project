@@ -61,7 +61,7 @@ graph TD
 | Feature | Demo Link | Description |
 |---------|-----------|-------------|
 | **Basic Workflow** | [📺 Watch Demo](https://github.com/user-attachments/assets/d61b4068-5f1b-426b-84c2-c056f980ddb7) | End-to-end query processing |
-| **Error Handling** | [📺 Watch Demo](https://github.com/user-attachments/assets/a6c50ae6-3920-4387-af50-9796135c900a) | Validation and error responses |
+| **Error Handling** | [📺 Watch Demo](https://github.com/user-attachments/assets/a6c50ae6-3920-4387-af50-9796135c900a) | Validation and error responses(Don't Generate Random Data) |
 | **Complex Queries** | [📺 Watch Demo](https://github.com/user-attachments/assets/59ac2379-ebee-40a4-8227-ede21f0ce541) | Advanced SQL generation |
 
 ---
