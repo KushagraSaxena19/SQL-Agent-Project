@@ -11,12 +11,6 @@
   <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
-![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen?style=flat-square)
-![Response Time](https://img.shields.io/badge/Response_Time-<15s-blue?style=flat-square)
-![Accuracy](https://img.shields.io/badge/Accuracy-95%+-success?style=flat-square)
-
-</div>
-
 ## 📋 Prerequisites
 
 - **Dataset Knowledge** - Users should be familiar with their database structure, table names, and column names for optimal query results
