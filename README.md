@@ -81,7 +81,4 @@ graph TD
 - **Enhanced Analytics** - Real-time dashboard with query insights
 
 ---
-
-<p align="center">
-<em>Made with ❤️ for the data community</em>
 </p>
