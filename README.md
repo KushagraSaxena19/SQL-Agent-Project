@@ -11,6 +11,8 @@
   <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
+</div>
+
 ## 📋 Prerequisites
 
 - **Dataset Knowledge** - Users should be familiar with their database structure, table names, and column names for optimal query results
