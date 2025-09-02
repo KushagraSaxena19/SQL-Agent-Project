@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🤖 AI-Powered SQL Agent
-### *Transform natural language questions into SQL queries instantly*
+### Transform natural language questions into SQL queries instantly
 *Making database queries as simple as asking a question*
 
 <p>
