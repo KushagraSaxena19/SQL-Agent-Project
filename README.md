@@ -54,7 +54,6 @@ graph TD
 | **AI Engine** | Google Gemini | Natural language to SQL translation |
 | **Database** | PostgreSQL + Supabase | Data storage and query execution |
 | **Workflow** | n8n | Automation and result processing |
-| **Validation** | Custom Logic | Query safety and schema validation |
 
 
 ## 🎥 Demo Videos
