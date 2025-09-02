@@ -46,6 +46,11 @@ graph TD
     style F fill:#4fc3f7,stroke:#01579b,stroke-width:2px,color:#000
 ```
 
+## 📋 Prerequisites
+
+- **Dataset Knowledge** - Users should be familiar with their database structure, table names, and column names for optimal query results
+- **Basic Data Understanding** - Awareness of data types and relationships between tables helps generate more accurate queries
+
 ## 🔧 Technology Stack
 
 | Component | Technology | Purpose |
